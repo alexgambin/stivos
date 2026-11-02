@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Caches
+.vite/
+.cache/
+.eslintcache
+*.tsbuildinfo
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment, keys and tokens
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Private documents
+Docs/
+*.pdf
+
+# OS and editor files
+.DS_Store
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+*.swp
